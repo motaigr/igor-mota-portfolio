@@ -27,7 +27,7 @@ export default function Layout() {
 
       <footer className="border-t-[0.5px] border-t-border bg-t-bg px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="font-mono text-t-gold text-sm font-medium">igor.dev()</div>
-        <div className="font-mono text-[11px] text-t-muted">© 2025 Igor Mota</div>
+        <div className="font-mono text-[11px] text-t-muted">© {new Date().getFullYear()} Igor Mota</div>
         <div className="flex gap-4 font-mono text-[11px] text-t-muted">
           <a
             href="https://github.com/motaigr"

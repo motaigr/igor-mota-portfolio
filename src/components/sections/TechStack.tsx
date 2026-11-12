@@ -4,11 +4,7 @@ import { SectionLabel } from '../SectionLabel'
 const stack = [
   { name: 'Python', role: 'Backend & Data', color: '#3776AB' },
   { name: 'FastAPI', role: 'API Architecture', color: '#009688' },
-  { 
-  name: 'Data Analytics', 
-  role: 'Pandas, Plotly, Streamlit', // Use uma string única com as ferramentas
-  color: '#61DAFB' 
-},
+  { name: 'Data Analytics', role: 'Pandas, Plotly, Streamlit', color: '#61DAFB' },
   { name: 'Supabase', role: 'Database & Auth', color: '#3ECF8E' },
   { name: 'Agentes de IA', role: 'LLMs & Automação', color: '#C8A96E' },
   { name: 'CRM', role: 'Enterprise Systems', color: '#FF4757' },
