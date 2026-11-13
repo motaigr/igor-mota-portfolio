@@ -9,17 +9,21 @@ export function Hero() {
           <div className="flex items-center gap-3 mb-6">
             <div className="w-8 h-[1px] bg-t-gold" />
             <span className="font-mono text-[10px] text-t-gold uppercase tracking-wider">
-              Python · AI · Backend
+              IA · Automação · Python
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-[-0.03em] leading-tight mb-6 text-t-text">
-            De dados a <em className="text-t-gold font-normal italic pr-1">soluções</em> reais.
+            Automação e <em className="text-t-gold font-normal italic pr-1">IA</em> aplicadas ao
+            negócio.
+            {/* Alternativas de título:
+              Automação e <em>IA</em> que resolvem problemas reais.
+              Do processo manual à <em>automação</em> inteligente. */}
           </h1>
 
           <p className="font-mono text-sm text-t-muted font-light leading-relaxed mb-8 max-w-md">
-            Com uma base sólida em finanças e sistemas corporativos, transformo lógica de negócios
-            complexa em arquiteturas elegantes e eficientes.
+            Forward Deployed Engineer na Os Guias. Desenvolvo automações e agentes de IA que tiram
+            trabalho manual das equipes, com Python, n8n e integrações com LLMs.
           </p>
         </Reveal>
 

@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 
 const lines = [
-  { cmd: 'whoami', out: 'Igor Mota — Developer & Analyst' },
-  { cmd: 'stack --list', out: 'Python, React, FastAPI, SQL, YOLOv8' },
+  { cmd: 'whoami', out: 'Igor Mota — Forward Deployed Engineer' },
+  { cmd: 'stack --list', out: 'Python, n8n, LLMs, Power Automate, SQL' },
   { cmd: 'status', out: 'Ready to build solutions.' },
 ]
 

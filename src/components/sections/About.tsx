@@ -2,9 +2,10 @@ import { Reveal } from '../Reveal'
 import { SectionLabel } from '../SectionLabel'
 
 const events = [
-  { year: '2026', title: 'Desenvolvimento de projetos próprios (Python/AI)', active: true },
+  { year: '2026', title: 'Forward Deployed Engineer na Os Guias', active: true },
+  { year: '2026', title: 'Desenvolvimento de projetos próprios (Python/IA)', active: false },
   { year: '2025', title: 'Transição de carreira para Tecnologia', active: false },
-  { year: '2022-2026', title: 'Experiência em operações administrativas e financeiras', active: false },
+  { year: '2022-2026', title: 'Experiência em áreas comerciais e financeiras', active: false },
 ]
 
 export function About() {
@@ -23,15 +24,15 @@ export function About() {
               desenvolvimento de software.
             </p>
             <p className="mb-4">
-              Comecei minha carreira imerso na complexidade de sistemas corporativos pesados como
-              SAP, Salesforce e Pega. Essa experiência forjou minha compreensão sobre arquiteturas
-              empresariais e resiliência de dados.
+              Comecei minha carreira em áreas comerciais e financeiras, lidando com sistemas
+              corporativos como SAP, Salesforce e Pega. Foi ali que aprendi a enxergar onde o
+              trabalho manual trava as equipes e quanto custa um processo mal resolvido.
             </p>
             <p>
-              Hoje, aplico esse rigor e visão estruturada no ecossistema moderno. Utilizando Python
-              e ferramentas de Inteligência Artificial, construo aplicações ágeis, focadas na
-              experiência do usuário e na entrega real de valor, sem perder de vista a robustez que
-              o mundo corporativo exige.
+              Hoje atuo como <span className="text-t-text">Forward Deployed Engineer</span> na Os
+              Guias, perto de quem usa as soluções no dia a dia. Com Python, n8n e integrações com
+              LLMs, desenvolvo automações e agentes de IA que tiram tarefas repetitivas das equipes
+              e deixam as pessoas livres para o que realmente exige atenção humana.
             </p>
           </div>
         </Reveal>
