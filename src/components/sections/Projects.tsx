@@ -71,9 +71,9 @@ const projects: Project[] = [
     type: 'personal',
     title: 'Painel de Separação de Pedidos',
     description:
-      'Painel kanban para a bancada de expedição de um pequeno e-commerce que vende na Shopee e no Mercado Livre. Cada pedido vira um card resumido (cliente, itens, quantidades e SKU) e avança pelas etapas de separação com um toque no tablet, substituindo as etiquetas de papel improvisadas. Integração automática com o Olist ERP em desenvolvimento.',
+      'Painel kanban para a expedição de um pequeno e-commerce da Shopee e do Mercado Livre. Cada pedido vira um card (cliente, itens e SKU) que avança pelas etapas de separação com um toque no tablet, no lugar das etiquetas de papel. PWA em tempo real, deploy contínuo e cerca de 90 testes automatizados. Integração com o Olist ERP em desenvolvimento.',
     status: 'MVP funcional',
-    tags: [],
+    tags: ['Python', 'FastAPI', 'SQLite', 'PWA', 'Docker', 'Pytest'],
     icon: '📦',
     color: '#09090F',
     gridColor: 'rgba(200, 169, 110, 0.05)',
@@ -189,7 +189,11 @@ function ProjectCard({ project: p }: { project: Project }) {
                   {p.status}
                 </span>
               )}
-              <Tags tags={p.tags} />
+              {p.tags.map((tag) => (
+                <span key={tag} className={badgeClass}>
+                  {tag}
+                </span>
+              ))}
             </div>
           )}
           <h3
